@@ -9,4 +9,5 @@ module.exports = (req, res, next) => {
   } catch {
     res.sendStatus(401);
   }
+  
 };
