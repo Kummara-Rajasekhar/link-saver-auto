@@ -8,6 +8,5 @@ module.exports = (req, res, next) => {
     next();
   } catch {
     res.sendStatus(401);
-    
   }
 };
